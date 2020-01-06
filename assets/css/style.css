@@ -41,6 +41,10 @@ p{
     width: fit-content;
 }
 
+.answer{
+    background-color:lightblue;
+}
+
 /* ID Selectors */
 #quiz-container{
     border: 10px solid black;
@@ -51,4 +55,8 @@ p{
     margin-left: 35px;
 }
 
+#questions{
+    font-size:45px;
+    font-weight: bold;
+}
 
