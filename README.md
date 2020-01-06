@@ -1,6 +1,4 @@
-# timed-quiz
-
-# 04-CodeQuiz
+# Timed Code Quiz
 
 This is a javascript code knowledge quiz powered with html, css, javascript, jQuery & JSON
 
@@ -30,7 +28,11 @@ These instructions will get you a copy of the project up and running on your loc
 - Javascript
 - jQuery
 
+## Difficulties
+- Had problems with loading questions to page and high score using JSON properties and local storage properties, working on fixing bugs with json and local storage.
 
+## Solutions
+- Fixed bugs to load quiz questions along with answers.
 
 ## Authors
 
