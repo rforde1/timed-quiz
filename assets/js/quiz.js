@@ -58,6 +58,8 @@ function getQuestion() {
 			var allButtons = $(this);
             allButtons.text(questions[countQuestion].choices[i]);
 		});
+    } else{
+        gameEnd();
     }
 }
 // Change button answers with on click function and verify button answers to then move on to next question in array.
@@ -77,7 +79,12 @@ allButtons.on("click", function() {
 	getQuestion();
 });
 
+function gameEnd(){
+   $("#highscore").show();
+    $("#highscore").text("HIGHSCORE: " + score);
+    $("#quiz-container").hide();
 
+}
 // Create add event listener to which when start id is clicked it will display:none for h1 and p, and then show quiz container
 $("#quiz-container").hide();
 // Click event to begin test
@@ -85,6 +92,8 @@ $("#start").on("click", function(){
   console.log("connected");
   $("#quiz-container").show();
   $("#primary-content").hide();
+  $("#highscore").hide()
+
   setTime();
   getQuestion();
   console.log("It worked");
