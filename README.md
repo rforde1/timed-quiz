@@ -1,6 +1,5 @@
 # Timed Code Quiz
 
-This is a javascript code knowledge quiz powered with html, css, javascript, jQuery & JSON
 
 # Javascript Code Quiz
 
